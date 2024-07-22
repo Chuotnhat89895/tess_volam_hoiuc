@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="¼¼ÄÜ">
+      <UniqueIdentifier>{66cdd66b-9951-4f78-90df-8fb1442e3e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="¼¼ÄÜ\Íæ¼Ò³èÎï">
+      <UniqueIdentifier>{4c2624ff-6f95-46c5-ae07-244ef447ef28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="¼¼ÄÜ\ÍµÇÔ¼¼ÄÜ">
+      <UniqueIdentifier>{1bdcf56d-86ff-4cf2-b27c-dd35f947a9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÈËÎï">
+      <UniqueIdentifier>{c22e5e9c-1adf-4067-af3f-9c7df8711ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÎïÆ·×°±¸">
+      <UniqueIdentifier>{51a68c4f-8c1d-4bbf-a2c0-dbc416b33fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÊÀ½ç">
+      <UniqueIdentifier>{a760ede8-8e54-4e84-89df-ecd4580028df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="µØÍ¼">
+      <UniqueIdentifier>{53f1ac87-3ead-4dd0-a43e-6bfdeb2fc71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÏûÏ¢">
+      <UniqueIdentifier>{fa6a113a-6d25-4e7b-8f5f-3061d981f5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÊýÑ§ÔËËã">
+      <UniqueIdentifier>{cbd3f880-7fff-4f21-ba56-e8953cd9032c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ð­Òé">
+      <UniqueIdentifier>{d790c9ce-7801-4804-9a78-586827d5186c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½Å±¾">
+      <UniqueIdentifier>{40cbbfe9-321f-44e4-a172-828205935195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½Å±¾\Á¢¼´ÐÔ½Å±¾">
+      <UniqueIdentifier>{f480f6fb-fe7b-4d0e-b82e-2ac8e3349fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="½Å±¾\µ¥²½ÐÔ½Å±¾">
+      <UniqueIdentifier>{386a3bb0-fba0-44fa-98b9-e14e810bd3f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="±»Íâ½ç·ÃÎÊ½Ó¿Ú">
+      <UniqueIdentifier>{d3170695-438d-4cde-ad40-090e695d8f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Êý¾Ý¿âÏà¹Ø">
+      <UniqueIdentifier>{a0958411-f8a2-4795-afd0-318d6b0203df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="³¡¾°">
+      <UniqueIdentifier>{00c42f4f-6a4a-4a63-a53b-6b005417dfbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="³¡¾°\³¡¾°ÖÐ¶ÔÏóÓë¶ÔÏóÊ÷">
+      <UniqueIdentifier>{20133444-396d-44b0-bedb-c58d5d300259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Í¼ÐÎÒýÓÃ">
+      <UniqueIdentifier>{b752f63a-f3e9-445e-99f1-39b2bda5abac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ä§·¨ÊôÐÔ">
+      <UniqueIdentifier>{f25848d7-10f8-47d4-91d6-70adc9af53b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GM¹ÜÀí">
+      <UniqueIdentifier>{b91639c0-b19f-4d16-9ec0-3e4bcebc2f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÈÎÎñÏà¹Ø">
+      <UniqueIdentifier>{c37fa07d-b50d-4fbf-94aa-6f6e9ea67b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ñ¡Ïî">
+      <UniqueIdentifier>{a9b2e345-cad6-4213-9843-7fafcb54ef53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÒôÀÖ">
+      <UniqueIdentifier>{fc6519d3-6e7c-413b-affc-b27363e75a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{96a7dbe3-172c-4850-8b28-cc16f3734c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Release">
+      <UniqueIdentifier>{7851f030-3764-4031-871f-dc3a764d687c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Debug">
+      <UniqueIdentifier>{aa4eb8df-a3d4-40ec-bc30-e65f55cdb9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ÅÅÃû">
+      <UniqueIdentifier>{41370a5b-b81b-4ff2-9de5-c9ff4d3c7b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USBKey">
+      <UniqueIdentifier>{2cc6dd09-3838-438f-bf33-65f00df03c82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\KPartnerSkill.cpp">
+      <Filter>¼¼ÄÜ\Íæ¼Ò³èÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerPartner.cpp">
+      <Filter>¼¼ÄÜ\Íæ¼Ò³èÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KThiefSkill.cpp">
+      <Filter>¼¼ÄÜ\ÍµÇÔ¼¼ÄÜ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KMissle.cpp">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KMissleRes.cpp">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KMissleSet.cpp">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KSkillList.cpp">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KSkillManager.cpp">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KSkills.cpp">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KSkillSpecial.cpp">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Skill.cpp">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KFaction.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpc.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcAI.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcAttribModify.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcDeathCalcExp.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcFindPath.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcGold.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcRes.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcResList.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcResNode.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcSet.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNpcTemplate.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayer.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerChat.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerDBFuns.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerFaction.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerMenuState.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerPK.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerSet.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerTask.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerTeam.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerTong.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KPlayerTrade.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KSprControl.cpp">
+      <Filter>ÈËÎï</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KBasPropTbl.CPP">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KBuySell.cpp">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KInventory.cpp">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KItem.cpp">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KItemChangeRes.cpp">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KItemGenerator.CPP">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KItemList.cpp">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KItemSet.cpp">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KObj.cpp">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KObjSet.cpp">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KViewItem.cpp">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KCore.cpp">
+      <Filter>ÊÀ½ç</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KSubWorld.cpp">
+      <Filter>ÊÀ½ç</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KSubWorldSet.cpp">
+      <Filter>ÊÀ½ç</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KWeatherMgr.cpp">
+      <Filter>ÊÀ½ç</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KRegion.cpp">
+      <Filter>µØÍ¼</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KWorldMsg.cpp">
+      <Filter>ÏûÏ¢</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KMath.cpp">
+      <Filter>ÊýÑ§ÔËËã</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KGMProcess.cpp">
+      <Filter>Ð­Òé</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KNewProtocolProcess.cpp">
+      <Filter>Ð­Òé</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KProtocol.cpp">
+      <Filter>Ð­Òé</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KProtocolProcess.cpp">
+      <Filter>Ð­Òé</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ScriptFuns.cpp">
+      <Filter>½Å±¾\Á¢¼´ÐÔ½Å±¾</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LuaFuns.cpp">
+      <Filter>½Å±¾\µ¥²½ÐÔ½Å±¾</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KScriptValueSet.cpp">
+      <Filter>½Å±¾</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KSortScript.cpp">
+      <Filter>½Å±¾</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CoreServerShell.cpp">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CoreShell.cpp">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\KIpotBranch.cpp">
+      <Filter>³¡¾°\³¡¾°ÖÐ¶ÔÏóÓë¶ÔÏóÊ÷</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\KIpotLeaf.cpp">
+      <Filter>³¡¾°\³¡¾°ÖÐ¶ÔÏóÓë¶ÔÏóÊ÷</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\KIpoTree.cpp">
+      <Filter>³¡¾°\³¡¾°ÖÐ¶ÔÏóÓë¶ÔÏóÊ÷</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\KScenePlaceC.cpp">
+      <Filter>³¡¾°</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\KScenePlaceRegionC.cpp">
+      <Filter>³¡¾°</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\KWeather.cpp">
+      <Filter>³¡¾°</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\SceneMath.cpp">
+      <Filter>³¡¾°</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\ScenePlaceMapC.cpp">
+      <Filter>³¡¾°</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CoreDrawGameObj.cpp">
+      <Filter>Í¼ÐÎÒýÓÃ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ImgRef.cpp">
+      <Filter>Í¼ÐÎÒýÓÃ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KMagicDesc.cpp">
+      <Filter>Ä§·¨ÊôÐÔ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KGMCommand.cpp">
+      <Filter>GM¹ÜÀí</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KMission.cpp">
+      <Filter>ÈÎÎñÏà¹Ø</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KTaskFuns.cpp">
+      <Filter>ÈÎÎñÏà¹Ø</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KOption.cpp">
+      <Filter>Ñ¡Ïî</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KMapMusic.cpp">
+      <Filter>ÒôÀÖ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\KLadder.cpp">
+      <Filter>ÅÅÃû</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\KPartnerSkill.h">
+      <Filter>¼¼ÄÜ\Íæ¼Ò³èÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerPartner.h">
+      <Filter>¼¼ÄÜ\Íæ¼Ò³èÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KThiefSkill.h">
+      <Filter>¼¼ÄÜ\ÍµÇÔ¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMissle.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMissleMagicAttribsData.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMissleRes.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMissleSet.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KSkillList.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KSkillManager.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KSkills.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KSkillSpecial.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Skill.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SkillDef.h">
+      <Filter>¼¼ÄÜ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KFaction.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpc.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcAI.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcAttribModify.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcDeathCalcExp.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcFindPath.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcGold.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcRes.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcResList.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcResNode.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcSet.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNpcTemplate.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayer.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerChat.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerDef.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerFaction.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerMenuState.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerPK.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerSet.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerTask.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerTeam.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerTong.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KPlayerTrade.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KSprControl.h">
+      <Filter>ÈËÎï</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KBasPropTbl.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KBuySell.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KInventory.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KItem.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KItemChangeRes.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KItemGenerator.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KItemList.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KItemSet.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KObj.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KObjSet.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KViewItem.h">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MyAssert.H">
+      <Filter>ÎïÆ·×°±¸</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KCore.h">
+      <Filter>ÊÀ½ç</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KSubWorld.h">
+      <Filter>ÊÀ½ç</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KSubWorldSet.h">
+      <Filter>ÊÀ½ç</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KWeatherMgr.h">
+      <Filter>ÊÀ½ç</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KRegion.h">
+      <Filter>µØÍ¼</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KWorldMsg.h">
+      <Filter>ÏûÏ¢</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMath.h">
+      <Filter>ÊýÑ§ÔËËã</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KNewProtocolProcess.h">
+      <Filter>Ð­Òé</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Headers\KProtocol.h">
+      <Filter>Ð­Òé</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Headers\KProtocolDef.h">
+      <Filter>Ð­Òé</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KProtocolProcess.h">
+      <Filter>Ð­Òé</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KScriptValueSet.h">
+      <Filter>½Å±¾</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KSortScript.h">
+      <Filter>½Å±¾</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LuaFuns.h">
+      <Filter>½Å±¾</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CoreObjGenreDef.h">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CoreServerDataDef.h">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CoreServerShell.h">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CoreShell.h">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CoreUseNameDef.h">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameDataDef.h">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KIndexNode.h">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MsgGenreDef.h">
+      <Filter>±»Íâ½ç·ÃÎÊ½Ó¿Ú</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lib\S3DBInterface.h">
+      <Filter>Êý¾Ý¿âÏà¹Ø</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\KIpotBranch.h">
+      <Filter>³¡¾°\³¡¾°ÖÐ¶ÔÏóÓë¶ÔÏóÊ÷</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\KIpotLeaf.h">
+      <Filter>³¡¾°\³¡¾°ÖÐ¶ÔÏóÓë¶ÔÏóÊ÷</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\KIpoTree.h">
+      <Filter>³¡¾°\³¡¾°ÖÐ¶ÔÏóÓë¶ÔÏóÊ÷</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\KScenePlaceC.h">
+      <Filter>³¡¾°</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\KScenePlaceRegionC.h">
+      <Filter>³¡¾°</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\KWeather.h">
+      <Filter>³¡¾°</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\ObstacleDef.h">
+      <Filter>³¡¾°</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\SceneDataDef.h">
+      <Filter>³¡¾°</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\SceneMath.h">
+      <Filter>³¡¾°</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\ScenePlaceMapC.h">
+      <Filter>³¡¾°</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CoreDrawGameObj.h">
+      <Filter>Í¼ÐÎÒýÓÃ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ImgRef.h">
+      <Filter>Í¼ÐÎÒýÓÃ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMagicAttrib.h">
+      <Filter>Ä§·¨ÊôÐÔ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMagicDesc.h">
+      <Filter>Ä§·¨ÊôÐÔ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KGMCommand.h">
+      <Filter>GM¹ÜÀí</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KLinkArrayTemplate.h">
+      <Filter>ÈÎÎñÏà¹Ø</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMission.h">
+      <Filter>ÈÎÎñÏà¹Ø</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMissionArray.h">
+      <Filter>ÈÎÎñÏà¹Ø</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KTaskFuns.h">
+      <Filter>ÈÎÎñÏà¹Ø</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TaskDef.h">
+      <Filter>ÈÎÎñÏà¹Ø</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KOption.h">
+      <Filter>Ñ¡Ïî</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KMapMusic.h">
+      <Filter>ÒôÀÖ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\KLadder.h">
+      <Filter>ÅÅÃû</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\USBKey\des.h">
+      <Filter>USBKey</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\USBKey\EPASSAPI.H">
+      <Filter>USBKey</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\USBKey\epsJO.h">
+      <Filter>USBKey</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\USBKey\MD5.H">
+      <Filter>USBKey</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\Lib\release\engine.lib">
+      <Filter>Lib\Release</Filter>
+    </Library>
+    <Library Include="..\..\Lib\release\common.lib">
+      <Filter>Lib\Release</Filter>
+    </Library>
+    <Library Include="..\..\Lib\debug\engine.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="..\..\Lib\debug\common.lib">
+      <Filter>Lib\Debug</Filter>
+    </Library>
+    <Library Include="Src\USBKey\EP1KDL20.LIB">
+      <Filter>USBKey</Filter>
+    </Library>
+    <Library Include="Src\USBKey\EpsForJoLib.lib">
+      <Filter>USBKey</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Src\PlayerPartnerÎÄµµ.txt">
+      <Filter>¼¼ÄÜ\Íæ¼Ò³èÎï</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Src\¼¼ÄÜÏµÍ³.txt">
+      <Filter>¼¼ÄÜ</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Src\AIÉè¼Æ.txt">
+      <Filter>ÈËÎï</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Src\NPCÏµÍ³.txt">
+      <Filter>ÈËÎï</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Protocol.xls">
+      <Filter>Ð­Òé</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Src\½Å±¾ËµÃ÷.txt">
+      <Filter>½Å±¾</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Src\ÈÎÎñÏµÍ³Éè¼ÆÎÄµµ.txt">
+      <Filter>ÈÎÎñÏà¹Ø</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

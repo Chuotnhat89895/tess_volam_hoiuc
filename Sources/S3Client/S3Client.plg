@@ -1,0 +1,896 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: S3Client - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Script1.res" /d "NDEBUG" "F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Script1.rc"" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP22A7.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /D "WIN32" /D "NDEBUG_WINDOWS" /D "_MBCS" /D "SWORDONLINE_USE_MD5_PASSWORD" /Fp"Release/S3Client.pch" /Yu"KWin32.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\AutoLocateWnd.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\ComWindow.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\MouseHover.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\PopupMenu.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\SpecialFuncs.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\TextPic.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\UiCursor.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\UiImage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndButton.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndChessPanel.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndEdit.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndImage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndImagePart.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndLabeledButton.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndList.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndList2.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndMessageListBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndMovingImage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndObjContainer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndPage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndPureTextBtn.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndRect.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\Wnds.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndScrollBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\elem\WndShadow.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndShowAnimate.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndText.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndToolBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndValueImage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndWindow.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiConnectInfo.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiLogin.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiLoginBg.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelServer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChatItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChooseFace.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiContainer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiFaceSelector.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPlayerBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPlayerControlBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiStatus.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiOptions.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiInit.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\BuySlectItemShop.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\KUiKtc.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiAuto.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiAutoI.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiBuyShop.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiCheckItemBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiGetMoney.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiLoginPWStoreBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewPWStoreBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPGBoxItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPWStoreBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiRPNewBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiShopName.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiShopPrice.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSkills.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSkillTree.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSlectBoxCheck.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiStaskItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\uicase\UiStoreBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiStringBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTopTKNew.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiESCDlg.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiGetString.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiMsgSel.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiParadeItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelPlayerNearby.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewPlayer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelNativePlace.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelPlayer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChannelSubscibe.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChatCentre.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiChatPhrase.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChatStatus.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiInformation.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiInformation2.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTeamManage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiHeaderControlBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\uicase\UiMsgCentrePad.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiToolsControlBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UIcase\UiShop.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiShopGold.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTrade.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTradeConfirmWnd.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiGame.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSysMsgCentre.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiFindPos.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiMapCave.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiMarket.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\uicase\UiMiniMap.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelColor.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewPlayerStartMsg.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPlayVideo.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiHelper.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiHelper2.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiReconnect.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTaskDataFile.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiGetString3.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTaskNote.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiWorldMap.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewsMessage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiStrengthRank.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiTongAssignBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTongChangeCamp.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTongGetString.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTongStringName.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiTrembleItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiSoundSetting.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\GameSpaceChangedNotify.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\ShortcutKey.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiBase.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiShell.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\ChatFilter.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\FilterTextLib.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\S3Client.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\NetConnect\NetConnectAgent.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Login\Login.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\TextCtrlCmd\TextCtrlCmd.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ErrorCode.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTeamAuto.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP22A7.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP22A8.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /D "WIN32" /D "NDEBUG_WINDOWS" /D "_MBCS" /D "SWORDONLINE_USE_MD5_PASSWORD" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiPopupPasswordQuery.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiTongCreateSheet.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiTongManager.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP22A8.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP22A9.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /D "WIN32" /D "NDEBUG_WINDOWS" /D "_MBCS" /D "SWORDONLINE_USE_MD5_PASSWORD" /Fp"Release/S3Client.pch" /Yc"KWin32.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP22A9.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP22AA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Winmm.lib shlwapi.lib lualibdll.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Game.pdb" /map:"Release/Game.map" /debug /machine:I386 /out:"Release/Game.exe" /libpath:"../../lib/" 
+".\Release\AutoLocateWnd.obj"
+".\Release\ComWindow.obj"
+".\Release\MouseHover.obj"
+".\Release\PopupMenu.obj"
+".\Release\SpecialFuncs.obj"
+".\Release\TextPic.obj"
+".\Release\UiCursor.obj"
+".\Release\UiImage.obj"
+".\Release\WndButton.obj"
+".\Release\WndChessPanel.obj"
+".\Release\WndEdit.obj"
+".\Release\WndImage.obj"
+".\Release\WndImagePart.obj"
+".\Release\WndLabeledButton.obj"
+".\Release\WndList.obj"
+".\Release\WndList2.obj"
+".\Release\WndMessageListBox.obj"
+".\Release\WndMovingImage.obj"
+".\Release\WndObjContainer.obj"
+".\Release\WndPage.obj"
+".\Release\WndPureTextBtn.obj"
+".\Release\WndRect.obj"
+".\Release\Wnds.obj"
+".\Release\WndScrollBar.obj"
+".\Release\WndShadow.obj"
+".\Release\WndShowAnimate.obj"
+".\Release\WndText.obj"
+".\Release\WndToolBar.obj"
+".\Release\WndValueImage.obj"
+".\Release\WndWindow.obj"
+".\Release\UiConnectInfo.obj"
+".\Release\UiLogin.obj"
+".\Release\UiLoginBg.obj"
+".\Release\UiSelServer.obj"
+".\Release\UiChatItem.obj"
+".\Release\UiChooseFace.obj"
+".\Release\UiContainer.obj"
+".\Release\UiFaceSelector.obj"
+".\Release\UiPlayerBar.obj"
+".\Release\UiPlayerControlBar.obj"
+".\Release\UiStatus.obj"
+".\Release\UiOptions.obj"
+".\Release\UiInit.obj"
+".\Release\BuySlectItemShop.obj"
+".\Release\KUiKtc.obj"
+".\Release\UiAuto.obj"
+".\Release\UiAutoI.obj"
+".\Release\UiBuyShop.obj"
+".\Release\UiCheckItemBox.obj"
+".\Release\UiGetMoney.obj"
+".\Release\UiItem.obj"
+".\Release\UiLoginPWStoreBox.obj"
+".\Release\UiNewPWStoreBox.obj"
+".\Release\UiPGBoxItem.obj"
+".\Release\UiPWStoreBox.obj"
+".\Release\UiRPNewBox.obj"
+".\Release\UiShopName.obj"
+".\Release\UiShopPrice.obj"
+".\Release\UiSkills.obj"
+".\Release\UiSkillTree.obj"
+".\Release\UiSlectBoxCheck.obj"
+".\Release\UiStaskItem.obj"
+".\Release\UiStoreBox.obj"
+".\Release\UiStringBox.obj"
+".\Release\UiTopTKNew.obj"
+".\Release\UiESCDlg.obj"
+".\Release\UiGetString.obj"
+".\Release\UiMsgSel.obj"
+".\Release\UiParadeItem.obj"
+".\Release\UiSelPlayerNearby.obj"
+".\Release\UiNewPlayer.obj"
+".\Release\UiSelNativePlace.obj"
+".\Release\UiSelPlayer.obj"
+".\Release\UiChannelSubscibe.obj"
+".\Release\UiChatCentre.obj"
+".\Release\UiChatPhrase.obj"
+".\Release\UiChatStatus.obj"
+".\Release\UiInformation.obj"
+".\Release\UiInformation2.obj"
+".\Release\UiTeamManage.obj"
+".\Release\UiHeaderControlBar.obj"
+".\Release\UiMsgCentrePad.obj"
+".\Release\UiToolsControlBar.obj"
+".\Release\UiShop.obj"
+".\Release\UiShopGold.obj"
+".\Release\UiTrade.obj"
+".\Release\UiTradeConfirmWnd.obj"
+".\Release\UiGame.obj"
+".\Release\UiSysMsgCentre.obj"
+".\Release\UiFindPos.obj"
+".\Release\UiMapCave.obj"
+".\Release\UiMarket.obj"
+".\Release\UiMiniMap.obj"
+".\Release\UiSelColor.obj"
+".\Release\UiNewPlayerStartMsg.obj"
+".\Release\UiPlayVideo.obj"
+".\Release\UiHelper.obj"
+".\Release\UiHelper2.obj"
+".\Release\UiReconnect.obj"
+".\Release\UiTaskDataFile.obj"
+".\Release\UiGetString3.obj"
+".\Release\UiTaskNote.obj"
+".\Release\UiWorldMap.obj"
+".\Release\UiNewsMessage.obj"
+".\Release\UiStrengthRank.obj"
+".\Release\UiPopupPasswordQuery.obj"
+".\Release\UiTongAssignBox.obj"
+".\Release\UiTongChangeCamp.obj"
+".\Release\UiTongCreateSheet.obj"
+".\Release\UiTongGetString.obj"
+".\Release\UiTongManager.obj"
+".\Release\UiTongStringName.obj"
+".\Release\UiTrembleItem.obj"
+".\Release\UiSoundSetting.obj"
+".\Release\GameSpaceChangedNotify.obj"
+".\Release\ShortcutKey.obj"
+".\Release\UiBase.obj"
+".\Release\UiShell.obj"
+".\Release\ChatFilter.obj"
+".\Release\FilterTextLib.obj"
+".\Release\S3Client.obj"
+".\Release\NetConnectAgent.obj"
+".\Release\Login.obj"
+".\Release\TextCtrlCmd.obj"
+".\Release\ErrorCode.obj"
+".\Release\stdafx.obj"
+".\Release\UiTeamAuto.obj"
+".\Release\Script1.res"
+"..\..\Lib\release\engine.lib"
+"..\..\Lib\release\CoreClient.lib"
+]
+Creating command line "link.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP22AA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+AutoLocateWnd.cpp
+ComWindow.cpp
+MouseHover.cpp
+PopupMenu.cpp
+SpecialFuncs.cpp
+TextPic.cpp
+UiCursor.cpp
+UiImage.cpp
+WndButton.cpp
+WndChessPanel.cpp
+WndEdit.cpp
+WndImage.cpp
+WndImagePart.cpp
+WndLabeledButton.cpp
+WndList.cpp
+WndList2.cpp
+WndMessageListBox.cpp
+WndMovingImage.cpp
+WndObjContainer.cpp
+WndPage.cpp
+Generating Code...
+Compiling...
+WndPureTextBtn.cpp
+WndRect.cpp
+Wnds.cpp
+WndScrollBar.cpp
+WndShadow.cpp
+WndShowAnimate.cpp
+WndText.cpp
+WndToolBar.cpp
+WndValueImage.cpp
+WndWindow.cpp
+UiConnectInfo.cpp
+UiLogin.cpp
+UiLoginBg.cpp
+UiSelServer.cpp
+UiChatItem.cpp
+UiChooseFace.cpp
+UiContainer.cpp
+UiFaceSelector.cpp
+UiPlayerBar.cpp
+UiPlayerControlBar.cpp
+Generating Code...
+Compiling...
+UiStatus.cpp
+UiOptions.cpp
+UiInit.cpp
+BuySlectItemShop.cpp
+KUiKtc.cpp
+UiAuto.cpp
+UiAutoI.cpp
+UiBuyShop.cpp
+UiCheckItemBox.cpp
+UiGetMoney.cpp
+UiItem.cpp
+UiLoginPWStoreBox.cpp
+UiNewPWStoreBox.cpp
+UiPGBoxItem.cpp
+UiPWStoreBox.cpp
+UiRPNewBox.cpp
+UiShopName.cpp
+UiShopPrice.cpp
+UiSkills.cpp
+UiSkillTree.cpp
+Generating Code...
+Compiling...
+UiSlectBoxCheck.cpp
+UiStaskItem.cpp
+UiStoreBox.cpp
+UiStringBox.cpp
+UiTopTKNew.cpp
+UiESCDlg.cpp
+UiGetString.cpp
+UiMsgSel.cpp
+UiParadeItem.cpp
+UiSelPlayerNearby.cpp
+UiNewPlayer.cpp
+UiSelNativePlace.cpp
+UiSelPlayer.cpp
+UiChannelSubscibe.cpp
+UiChatCentre.cpp
+UiChatPhrase.cpp
+UiChatStatus.cpp
+UiInformation.cpp
+UiInformation2.cpp
+UiTeamManage.cpp
+Generating Code...
+Compiling...
+UiHeaderControlBar.cpp
+UiMsgCentrePad.cpp
+UiToolsControlBar.cpp
+UiShop.cpp
+UiShopGold.cpp
+UiTrade.cpp
+UiTradeConfirmWnd.cpp
+UiGame.cpp
+UiSysMsgCentre.cpp
+UiFindPos.cpp
+UiMapCave.cpp
+UiMarket.cpp
+UiMiniMap.cpp
+UiSelColor.cpp
+UiNewPlayerStartMsg.cpp
+UiPlayVideo.cpp
+UiHelper.cpp
+UiHelper2.cpp
+UiReconnect.cpp
+UiTaskDataFile.cpp
+Generating Code...
+Compiling...
+UiGetString3.cpp
+UiTaskNote.cpp
+UiWorldMap.cpp
+UiNewsMessage.cpp
+UiStrengthRank.cpp
+UiTongAssignBox.cpp
+UiTongChangeCamp.cpp
+UiTongGetString.cpp
+UiTongStringName.cpp
+UiTrembleItem.cpp
+UiSoundSetting.cpp
+GameSpaceChangedNotify.cpp
+ShortcutKey.cpp
+UiBase.cpp
+UiShell.cpp
+ChatFilter.cpp
+FilterTextLib.cpp
+S3Client.cpp
+NetConnectAgent.cpp
+Login.cpp
+Generating Code...
+Compiling...
+TextCtrlCmd.cpp
+ErrorCode.cpp
+UiTeamAuto.cpp
+Generating Code...
+Compiling...
+UiPopupPasswordQuery.cpp
+UiTongCreateSheet.cpp
+UiTongManager.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP510E.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\release\
+copy Release\Game.exe ..\..\..\bin\Client\Game.exe
+copy Release\Game.exe ..\..\..\bin\Client\release\Game.exe
+copy Release\Game.pdb ..\..\..\bin\Client\release\Game.pdb
+copy Release\Game.map ..\..\..\bin\Client\release\Game.map
+]
+Creating command line "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP510E.bat"
+
+A subdirectory or file ..\..\..\bin\client\release\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Game.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: S3Client - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Script1.res" /d "_DEBUG" "F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Script1.rc"" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP543C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "SWORDONLINE_SHOW_DBUG_INFO" /D "SWORDONLINE_USE_MD5_PASSWORD" /FR"Debug/" /Fp"Debug/S3Client.pch" /Yu"KWin32.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\AutoLocateWnd.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\ComWindow.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\MouseHover.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\PopupMenu.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\SpecialFuncs.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\TextPic.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\UiCursor.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\UiImage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndButton.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndChessPanel.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndEdit.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndImage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndImagePart.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndLabeledButton.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndList.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndList2.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndMessageListBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndMovingImage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndObjContainer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndPage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndPureTextBtn.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndRect.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\Wnds.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndScrollBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\elem\WndShadow.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndShowAnimate.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndText.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndToolBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndValueImage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\Elem\WndWindow.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiConnectInfo.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiLogin.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiLoginBg.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelServer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChatItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChooseFace.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiContainer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiFaceSelector.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPlayerBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPlayerControlBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiStatus.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiOptions.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiInit.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\BuySlectItemShop.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\KUiKtc.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiAuto.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiAutoI.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiBuyShop.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiCheckItemBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiGetMoney.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiLoginPWStoreBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewPWStoreBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPGBoxItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPWStoreBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiRPNewBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiShopName.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiShopPrice.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSkills.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSkillTree.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSlectBoxCheck.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiStaskItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\uicase\UiStoreBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiStringBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTopTKNew.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiESCDlg.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiGetString.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiMsgSel.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiParadeItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelPlayerNearby.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewPlayer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelNativePlace.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelPlayer.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChannelSubscibe.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChatCentre.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiChatPhrase.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiChatStatus.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiInformation.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiInformation2.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTeamManage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiHeaderControlBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\uicase\UiMsgCentrePad.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiToolsControlBar.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UIcase\UiShop.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiShopGold.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTrade.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTradeConfirmWnd.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiGame.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSysMsgCentre.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiFindPos.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiMapCave.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiMarket.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\uicase\UiMiniMap.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiSelColor.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewPlayerStartMsg.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiPlayVideo.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiHelper.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiHelper2.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiReconnect.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTaskDataFile.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiGetString3.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTaskNote.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiWorldMap.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiNewsMessage.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiStrengthRank.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiPopupPasswordQuery.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiTongAssignBox.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTongChangeCamp.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiTongCreateSheet.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTongGetString.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiTongManager.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTongStringName.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ui\uicase\UiTrembleItem.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiSoundSetting.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\GameSpaceChangedNotify.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\ShortcutKey.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiBase.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiShell.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\ChatFilter.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\FilterTextLib.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\S3Client.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\NetConnect\NetConnectAgent.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Login\Login.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\TextCtrlCmd\TextCtrlCmd.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\ErrorCode.cpp"
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\Ui\UiCase\UiTeamAuto.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP543C.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP543D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "../Engine/src" /I "../Core/src" /I "../Engine/include" /I "../../Headers" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "SWORDONLINE_SHOW_DBUG_INFO" /D "SWORDONLINE_USE_MD5_PASSWORD" /FR"Debug/" /Fp"Debug/S3Client.pch" /Yc"KWin32.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\0.02 volamhoiuc\srcjxwin\srcjxwin\SwordOnline\Sources\S3Client\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP543D.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP543E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Winmm.lib shlwapi.lib lualibdll.lib /nologo /subsystem:windows /incremental:no /pdb:"Debug/Game.pdb" /map:"Debug/Game.map" /debug /machine:I386 /out:"Debug/Game.exe" /libpath:"../../lib/" 
+".\Debug\AutoLocateWnd.obj"
+".\Debug\ComWindow.obj"
+".\Debug\MouseHover.obj"
+".\Debug\PopupMenu.obj"
+".\Debug\SpecialFuncs.obj"
+".\Debug\TextPic.obj"
+".\Debug\UiCursor.obj"
+".\Debug\UiImage.obj"
+".\Debug\WndButton.obj"
+".\Debug\WndChessPanel.obj"
+".\Debug\WndEdit.obj"
+".\Debug\WndImage.obj"
+".\Debug\WndImagePart.obj"
+".\Debug\WndLabeledButton.obj"
+".\Debug\WndList.obj"
+".\Debug\WndList2.obj"
+".\Debug\WndMessageListBox.obj"
+".\Debug\WndMovingImage.obj"
+".\Debug\WndObjContainer.obj"
+".\Debug\WndPage.obj"
+".\Debug\WndPureTextBtn.obj"
+".\Debug\WndRect.obj"
+".\Debug\Wnds.obj"
+".\Debug\WndScrollBar.obj"
+".\Debug\WndShadow.obj"
+".\Debug\WndShowAnimate.obj"
+".\Debug\WndText.obj"
+".\Debug\WndToolBar.obj"
+".\Debug\WndValueImage.obj"
+".\Debug\WndWindow.obj"
+".\Debug\UiConnectInfo.obj"
+".\Debug\UiLogin.obj"
+".\Debug\UiLoginBg.obj"
+".\Debug\UiSelServer.obj"
+".\Debug\UiChatItem.obj"
+".\Debug\UiChooseFace.obj"
+".\Debug\UiContainer.obj"
+".\Debug\UiFaceSelector.obj"
+".\Debug\UiPlayerBar.obj"
+".\Debug\UiPlayerControlBar.obj"
+".\Debug\UiStatus.obj"
+".\Debug\UiOptions.obj"
+".\Debug\UiInit.obj"
+".\Debug\BuySlectItemShop.obj"
+".\Debug\KUiKtc.obj"
+".\Debug\UiAuto.obj"
+".\Debug\UiAutoI.obj"
+".\Debug\UiBuyShop.obj"
+".\Debug\UiCheckItemBox.obj"
+".\Debug\UiGetMoney.obj"
+".\Debug\UiItem.obj"
+".\Debug\UiLoginPWStoreBox.obj"
+".\Debug\UiNewPWStoreBox.obj"
+".\Debug\UiPGBoxItem.obj"
+".\Debug\UiPWStoreBox.obj"
+".\Debug\UiRPNewBox.obj"
+".\Debug\UiShopName.obj"
+".\Debug\UiShopPrice.obj"
+".\Debug\UiSkills.obj"
+".\Debug\UiSkillTree.obj"
+".\Debug\UiSlectBoxCheck.obj"
+".\Debug\UiStaskItem.obj"
+".\Debug\UiStoreBox.obj"
+".\Debug\UiStringBox.obj"
+".\Debug\UiTopTKNew.obj"
+".\Debug\UiESCDlg.obj"
+".\Debug\UiGetString.obj"
+".\Debug\UiMsgSel.obj"
+".\Debug\UiParadeItem.obj"
+".\Debug\UiSelPlayerNearby.obj"
+".\Debug\UiNewPlayer.obj"
+".\Debug\UiSelNativePlace.obj"
+".\Debug\UiSelPlayer.obj"
+".\Debug\UiChannelSubscibe.obj"
+".\Debug\UiChatCentre.obj"
+".\Debug\UiChatPhrase.obj"
+".\Debug\UiChatStatus.obj"
+".\Debug\UiInformation.obj"
+".\Debug\UiInformation2.obj"
+".\Debug\UiTeamManage.obj"
+".\Debug\UiHeaderControlBar.obj"
+".\Debug\UiMsgCentrePad.obj"
+".\Debug\UiToolsControlBar.obj"
+".\Debug\UiShop.obj"
+".\Debug\UiShopGold.obj"
+".\Debug\UiTrade.obj"
+".\Debug\UiTradeConfirmWnd.obj"
+".\Debug\UiGame.obj"
+".\Debug\UiSysMsgCentre.obj"
+".\Debug\UiFindPos.obj"
+".\Debug\UiMapCave.obj"
+".\Debug\UiMarket.obj"
+".\Debug\UiMiniMap.obj"
+".\Debug\UiSelColor.obj"
+".\Debug\UiNewPlayerStartMsg.obj"
+".\Debug\UiPlayVideo.obj"
+".\Debug\UiHelper.obj"
+".\Debug\UiHelper2.obj"
+".\Debug\UiReconnect.obj"
+".\Debug\UiTaskDataFile.obj"
+".\Debug\UiGetString3.obj"
+".\Debug\UiTaskNote.obj"
+".\Debug\UiWorldMap.obj"
+".\Debug\UiNewsMessage.obj"
+".\Debug\UiStrengthRank.obj"
+".\Debug\UiPopupPasswordQuery.obj"
+".\Debug\UiTongAssignBox.obj"
+".\Debug\UiTongChangeCamp.obj"
+".\Debug\UiTongCreateSheet.obj"
+".\Debug\UiTongGetString.obj"
+".\Debug\UiTongManager.obj"
+".\Debug\UiTongStringName.obj"
+".\Debug\UiTrembleItem.obj"
+".\Debug\UiSoundSetting.obj"
+".\Debug\GameSpaceChangedNotify.obj"
+".\Debug\ShortcutKey.obj"
+".\Debug\UiBase.obj"
+".\Debug\UiShell.obj"
+".\Debug\ChatFilter.obj"
+".\Debug\FilterTextLib.obj"
+".\Debug\S3Client.obj"
+".\Debug\NetConnectAgent.obj"
+".\Debug\Login.obj"
+".\Debug\TextCtrlCmd.obj"
+".\Debug\ErrorCode.obj"
+".\Debug\stdafx.obj"
+".\Debug\UiTeamAuto.obj"
+".\Debug\Script1.res"
+"..\..\Lib\debug\engine.lib"
+"..\..\Lib\debug\CoreClient.lib"
+]
+Creating command line "link.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP543E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+AutoLocateWnd.cpp
+ComWindow.cpp
+MouseHover.cpp
+PopupMenu.cpp
+SpecialFuncs.cpp
+TextPic.cpp
+UiCursor.cpp
+UiImage.cpp
+WndButton.cpp
+WndChessPanel.cpp
+WndEdit.cpp
+WndImage.cpp
+WndImagePart.cpp
+WndLabeledButton.cpp
+WndList.cpp
+WndList2.cpp
+WndMessageListBox.cpp
+WndMovingImage.cpp
+WndObjContainer.cpp
+WndPage.cpp
+Generating Code...
+Compiling...
+WndPureTextBtn.cpp
+WndRect.cpp
+Wnds.cpp
+WndScrollBar.cpp
+WndShadow.cpp
+WndShowAnimate.cpp
+WndText.cpp
+WndToolBar.cpp
+WndValueImage.cpp
+WndWindow.cpp
+UiConnectInfo.cpp
+UiLogin.cpp
+UiLoginBg.cpp
+UiSelServer.cpp
+UiChatItem.cpp
+UiChooseFace.cpp
+UiContainer.cpp
+UiFaceSelector.cpp
+UiPlayerBar.cpp
+UiPlayerControlBar.cpp
+Generating Code...
+Compiling...
+UiStatus.cpp
+UiOptions.cpp
+UiInit.cpp
+BuySlectItemShop.cpp
+KUiKtc.cpp
+UiAuto.cpp
+UiAutoI.cpp
+UiBuyShop.cpp
+UiCheckItemBox.cpp
+UiGetMoney.cpp
+UiItem.cpp
+UiLoginPWStoreBox.cpp
+UiNewPWStoreBox.cpp
+UiPGBoxItem.cpp
+UiPWStoreBox.cpp
+UiRPNewBox.cpp
+UiShopName.cpp
+UiShopPrice.cpp
+UiSkills.cpp
+UiSkillTree.cpp
+Generating Code...
+Compiling...
+UiSlectBoxCheck.cpp
+UiStaskItem.cpp
+UiStoreBox.cpp
+UiStringBox.cpp
+UiTopTKNew.cpp
+UiESCDlg.cpp
+UiGetString.cpp
+UiMsgSel.cpp
+UiParadeItem.cpp
+UiSelPlayerNearby.cpp
+UiNewPlayer.cpp
+UiSelNativePlace.cpp
+UiSelPlayer.cpp
+UiChannelSubscibe.cpp
+UiChatCentre.cpp
+UiChatPhrase.cpp
+UiChatStatus.cpp
+UiInformation.cpp
+UiInformation2.cpp
+UiTeamManage.cpp
+Generating Code...
+Compiling...
+UiHeaderControlBar.cpp
+UiMsgCentrePad.cpp
+UiToolsControlBar.cpp
+UiShop.cpp
+UiShopGold.cpp
+UiTrade.cpp
+UiTradeConfirmWnd.cpp
+UiGame.cpp
+UiSysMsgCentre.cpp
+UiFindPos.cpp
+UiMapCave.cpp
+UiMarket.cpp
+UiMiniMap.cpp
+UiSelColor.cpp
+UiNewPlayerStartMsg.cpp
+UiPlayVideo.cpp
+UiHelper.cpp
+UiHelper2.cpp
+UiReconnect.cpp
+UiTaskDataFile.cpp
+Generating Code...
+Compiling...
+UiGetString3.cpp
+UiTaskNote.cpp
+UiWorldMap.cpp
+UiNewsMessage.cpp
+UiStrengthRank.cpp
+UiPopupPasswordQuery.cpp
+UiTongAssignBox.cpp
+UiTongChangeCamp.cpp
+UiTongCreateSheet.cpp
+UiTongGetString.cpp
+UiTongManager.cpp
+UiTongStringName.cpp
+UiTrembleItem.cpp
+UiSoundSetting.cpp
+GameSpaceChangedNotify.cpp
+ShortcutKey.cpp
+UiBase.cpp
+UiShell.cpp
+ChatFilter.cpp
+FilterTextLib.cpp
+Generating Code...
+Compiling...
+S3Client.cpp
+NetConnectAgent.cpp
+Login.cpp
+TextCtrlCmd.cpp
+ErrorCode.cpp
+UiTeamAuto.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSPB191.bat" with contents
+[
+@echo off
+md ..\..\..\bin\client\debug\
+copy debug\Game.exe ..\..\..\bin\Client\Game.exe
+copy debug\Game.exe ..\..\..\bin\Client\debug\Game.exe
+]
+Creating command line "C:\Users\ANHTHU~1\AppData\Local\Temp\RSPB191.bat"
+
+A subdirectory or file ..\..\..\bin\client\debug\ already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Game.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

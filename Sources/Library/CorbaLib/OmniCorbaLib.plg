@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OmniCorbaLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\glory\AppData\Local\Temp\RSP5F63.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GX /ZI /Od /I "..\..\Engine\Src" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "__WIN32__" /D "__x86__" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\AssistantServerDynSK.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\AssistantServerSK.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\KAssistantServer.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\KCorbaClient.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\KCorbaServer.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\KDataManage.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\KReqServer.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\KSynData.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\KSynDataSet.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\KSynDataSets.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\KSynLock.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\ReqServerDynSK.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\ReqServerSK.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\SynDataSetsDynSK.cpp"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\Library\CorbaLib\Src\SynDataSetsSK.cpp"
+]
+Creating command line "cl.exe @C:\Users\glory\AppData\Local\Temp\RSP5F63.tmp" 
+Creating temporary file "C:\Users\glory\AppData\Local\Temp\RSP5F64.tmp" with contents
+[
+/nologo /out:"Debug\OmniCorbaLib.lib" 
+.\Debug\AssistantServerDynSK.obj
+.\Debug\AssistantServerSK.obj
+.\Debug\KAssistantServer.obj
+.\Debug\KCorbaClient.obj
+.\Debug\KCorbaServer.obj
+.\Debug\KDataManage.obj
+.\Debug\KReqServer.obj
+.\Debug\KSynData.obj
+.\Debug\KSynDataSet.obj
+.\Debug\KSynDataSets.obj
+.\Debug\KSynLock.obj
+.\Debug\ReqServerDynSK.obj
+.\Debug\ReqServerSK.obj
+.\Debug\SynDataSetsDynSK.obj
+.\Debug\SynDataSetsSK.obj
+]
+Creating command line "link.exe -lib @C:\Users\glory\AppData\Local\Temp\RSP5F64.tmp"
+<h3>Output Window</h3>
+Compiling...
+AssistantServerDynSK.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\assistantserver.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+AssistantServerSK.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\assistantserver.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+KAssistantServer.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\assistantserver.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+KCorbaClient.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\kcorbaclient.h(4) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+KCorbaServer.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\kcorbaserver.h(4) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+KDataManage.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\syndatasets.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+KReqServer.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\reqserver.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+KSynData.cpp
+KSynDataSet.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\ksyndataset.h(7) : fatal error C1083: Cannot open include file: 'SynDataSet.h': No such file or directory
+KSynDataSets.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\syndatasets.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+KSynLock.cpp
+ReqServerDynSK.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\reqserver.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+ReqServerSK.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\reqserver.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+SynDataSetsDynSK.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\syndatasets.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+SynDataSetsSK.cpp
+d:\source\hoiuc\jx1source\swordonline\sources\library\corbalib\src\syndatasets.h(10) : fatal error C1083: Cannot open include file: 'omniORB3/CORBA.h': No such file or directory
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+OmniCorbaLib.lib - 13 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

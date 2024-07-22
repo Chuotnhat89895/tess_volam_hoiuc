@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: JpgLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\glory\AppData\Local\Temp\RSP3A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/JpgLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\JpgLib\Src\KJpegColor.c"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\JpgLib\Src\KJpegDecode.c"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\JpgLib\Src\KJpegHuffman.c"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\JpgLib\Src\KJpegIdct.c"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\JpgLib\Src\KJpegIdct2d.c"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\JpgLib\Src\KJpegLib.c"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\JpgLib\Src\KJpegQuanty.c"
+"D:\Source\HoiUc\Jx1Source\SwordOnline\Sources\JpgLib\Src\KJpegSegment.c"
+]
+Creating command line "cl.exe @C:\Users\glory\AppData\Local\Temp\RSP3A.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\JpgLib.lib"  .\Debug\KJpegColor.obj .\Debug\KJpegDecode.obj .\Debug\KJpegHuffman.obj .\Debug\KJpegIdct.obj .\Debug\KJpegIdct2d.obj .\Debug\KJpegLib.obj .\Debug\KJpegQuanty.obj .\Debug\KJpegSegment.obj "
+<h3>Output Window</h3>
+Compiling...
+KJpegColor.c
+KJpegDecode.c
+KJpegHuffman.c
+KJpegIdct.c
+KJpegIdct2d.c
+KJpegLib.c
+KJpegQuanty.c
+KJpegSegment.c
+Creating library...
+
+
+
+<h3>Results</h3>
+JpgLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

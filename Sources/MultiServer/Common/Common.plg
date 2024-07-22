@@ -1,0 +1,455 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Common - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP3711.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D _WIN32_WINNT=0x0400 /Fp"Release/Common.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Buffer.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Console.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Event.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\EventSelect.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Exception.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\IniFile.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\IOBuffer.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\IOCompletionPort.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\KSG_EncodeDecode.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\KSocketClient2.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Library.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Macro.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\ManualResetEvent.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Mutex.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\NodeList.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Socket.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\SocketAddress.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\SocketClient.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\SocketServer.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Thread.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\UsesWinsock.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Utils.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Win32Exception.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP3711.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP3712.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D _WIN32_WINNT=0x0400 /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\CRC32.C"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP3712.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP3713.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D _WIN32_WINNT=0x0400 /Fp"Release/Common.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP3713.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP3714.tmp" with contents
+[
+/nologo /out:"Release\Common.lib" 
+".\Release\Buffer.obj"
+".\Release\Console.obj"
+".\Release\CRC32.OBJ"
+".\Release\Event.obj"
+".\Release\EventSelect.obj"
+".\Release\Exception.obj"
+".\Release\IniFile.obj"
+".\Release\IOBuffer.obj"
+".\Release\IOCompletionPort.obj"
+".\Release\KSG_EncodeDecode.obj"
+".\Release\KSocketClient2.obj"
+".\Release\Library.obj"
+".\Release\Macro.obj"
+".\Release\ManualResetEvent.obj"
+".\Release\Mutex.obj"
+".\Release\NodeList.obj"
+".\Release\Socket.obj"
+".\Release\SocketAddress.obj"
+".\Release\SocketClient.obj"
+".\Release\SocketServer.obj"
+".\Release\stdafx.obj"
+".\Release\Thread.obj"
+".\Release\UsesWinsock.obj"
+".\Release\Utils.obj"
+".\Release\Win32Exception.obj"
+]
+Creating command line "link.exe -lib @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP3714.tmp"
+<h3>Output Window</h3>
+Compiling...
+stdafx.cpp
+Compiling...
+Buffer.cpp
+Console.cpp
+Event.cpp
+EventSelect.cpp
+Exception.cpp
+IniFile.cpp
+IOBuffer.cpp
+IOCompletionPort.cpp
+KSG_EncodeDecode.cpp
+KSocketClient2.cpp
+Library.cpp
+Macro.cpp
+ManualResetEvent.cpp
+Mutex.cpp
+NodeList.cpp
+Socket.cpp
+SocketAddress.cpp
+SocketClient.cpp
+SocketServer.cpp
+NOTE : --------------------OnlineGameLib [Client] : Announcement--------------------
+NOTE : The lib be used for socket communicate that it is base on
+NOTE : Windows 95 and Windows NT 3.51 and later
+NOTE :
+NOTE : liupeng xishanju.zhuhai.china 2003.1
+NOTE : -----------------------------------------------------------------------------
+Thread.cpp
+NOTE : --------------------OnlineGame [Server] : Announcement--------------------
+NOTE : Developing a truly scalable Winsock Server using IO Completion Ports(IOCP)
+NOTE : But this module depend on the microsoft platform
+NOTE : Requirements :
+NOTE :    * Windows NT/2000/XP: Included in Windows NT 4.0 and later.
+NOTE :    * Windows 95/98/Me: Unsupported.
+NOTE :
+NOTE : liupeng xishanju.zhuhai.china 2003.1
+NOTE : -----------------------------------------------------------------------------
+Generating Code...
+Compiling...
+UsesWinsock.cpp
+Utils.cpp
+Win32Exception.cpp
+Generating Code...
+Compiling...
+CRC32.C
+Creating library...
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP41E3.bat" with contents
+[
+@echo off
+md ..\..\..\lib\release
+copy release\common.lib ..\..\..\lib\release\common.lib
+copy release\common.lib ..\..\MultiServer\GameServer\common.lib
+]
+Creating command line "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP41E3.bat"
+
+A subdirectory or file ..\..\..\lib\release already exists.
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Common.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Common - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP4389.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D _WIN32_WINNT=0x0400 /FR"Debug/" /Fp"Debug/Common.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Buffer.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Console.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Event.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\EventSelect.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Exception.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\IniFile.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\IOBuffer.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\IOCompletionPort.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\KSG_EncodeDecode.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\KSocketClient2.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Library.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Macro.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\ManualResetEvent.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Mutex.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\NodeList.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Socket.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\SocketAddress.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\SocketClient.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\SocketServer.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Thread.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\UsesWinsock.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Utils.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\Win32Exception.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP4389.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP438A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D _WIN32_WINNT=0x0400 /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\CRC32.C"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP438A.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP438B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D _WIN32_WINNT=0x0400 /FR"Debug/" /Fp"Debug/Common.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\MultiServer\Common\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP438B.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP438C.tmp" with contents
+[
+/nologo /out:"Debug\Common.lib" 
+".\Debug\Buffer.obj"
+".\Debug\Console.obj"
+".\Debug\CRC32.OBJ"
+".\Debug\Event.obj"
+".\Debug\EventSelect.obj"
+".\Debug\Exception.obj"
+".\Debug\IniFile.obj"
+".\Debug\IOBuffer.obj"
+".\Debug\IOCompletionPort.obj"
+".\Debug\KSG_EncodeDecode.obj"
+".\Debug\KSocketClient2.obj"
+".\Debug\Library.obj"
+".\Debug\Macro.obj"
+".\Debug\ManualResetEvent.obj"
+".\Debug\Mutex.obj"
+".\Debug\NodeList.obj"
+".\Debug\Socket.obj"
+".\Debug\SocketAddress.obj"
+".\Debug\SocketClient.obj"
+".\Debug\SocketServer.obj"
+".\Debug\stdafx.obj"
+".\Debug\Thread.obj"
+".\Debug\UsesWinsock.obj"
+".\Debug\Utils.obj"
+".\Debug\Win32Exception.obj"
+]
+Creating command line "link.exe -lib @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP438C.tmp"
+<h3>Output Window</h3>
+Compiling...
+stdafx.cpp
+Compiling...
+Buffer.cpp
+Console.cpp
+Event.cpp
+EventSelect.cpp
+Exception.cpp
+IniFile.cpp
+IOBuffer.cpp
+IOCompletionPort.cpp
+KSG_EncodeDecode.cpp
+KSocketClient2.cpp
+Library.cpp
+Macro.cpp
+ManualResetEvent.cpp
+Mutex.cpp
+NodeList.cpp
+Socket.cpp
+SocketAddress.cpp
+SocketClient.cpp
+SocketServer.cpp
+NOTE : --------------------OnlineGameLib [Client] : Announcement--------------------
+NOTE : The lib be used for socket communicate that it is base on
+NOTE : Windows 95 and Windows NT 3.51 and later
+NOTE :
+NOTE : liupeng xishanju.zhuhai.china 2003.1
+NOTE : -----------------------------------------------------------------------------
+Thread.cpp
+NOTE : --------------------OnlineGame [Server] : Announcement--------------------
+NOTE : Developing a truly scalable Winsock Server using IO Completion Ports(IOCP)
+NOTE : But this module depend on the microsoft platform
+NOTE : Requirements :
+NOTE :    * Windows NT/2000/XP: Included in Windows NT 4.0 and later.
+NOTE :    * Windows 95/98/Me: Unsupported.
+NOTE :
+NOTE : liupeng xishanju.zhuhai.china 2003.1
+NOTE : -----------------------------------------------------------------------------
+Generating Code...
+Compiling...
+UsesWinsock.cpp
+Utils.cpp
+Win32Exception.cpp
+Generating Code...
+Compiling...
+CRC32.C
+Creating library...
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP50EB.bat" with contents
+[
+@echo off
+md ..\..\..\lib\debug
+copy debug\common.lib ..\..\..\lib\debug\common.lib
+]
+Creating command line "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP50EB.bat"
+
+A subdirectory or file ..\..\..\lib\debug already exists.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Common.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ExpandPackageStaticLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP533E.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/ExpandPackageStaticLib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\BlockSource.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\DataPointFromStream.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\DataSource.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\ExpandPackage.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\Interval.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\Package.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\PackageFileHead.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP533E.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP533F.tmp" with contents
+[
+/nologo /out:"Release\ExpandPackageStaticLib.lib" 
+".\Release\BlockSource.obj"
+".\Release\DataPointFromStream.obj"
+".\Release\DataSource.obj"
+".\Release\ExpandPackage.obj"
+".\Release\Interval.obj"
+".\Release\Package.obj"
+".\Release\PackageFileHead.obj"
+".\Release\StdAfx.obj"
+]
+Creating command line "link.exe -lib @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP533F.tmp"
+<h3>Output Window</h3>
+Compiling...
+BlockSource.cpp
+DataPointFromStream.cpp
+DataSource.cpp
+ExpandPackage.cpp
+Interval.cpp
+Package.cpp
+PackageFileHead.cpp
+StdAfx.cpp
+Creating library...
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP56BB.bat" with contents
+[
+@echo off
+copy Release\ExpandPackageStaticLib.lib ..\..\lib\Release\ExpandPackageStaticLib.lib
+]
+Creating command line "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP56BB.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ExpandPackageStaticLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: ExpandPackageStaticLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP5842.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/ExpandPackageStaticLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\BlockSource.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\DataPointFromStream.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\DataSource.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\ExpandPackage.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\Interval.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\Package.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\PackageFileHead.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\ExpandPackage2.0\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP5842.tmp" 
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP5843.tmp" with contents
+[
+/nologo /out:"Debug\ExpandPackageStaticLib.lib" 
+".\Debug\BlockSource.obj"
+".\Debug\DataPointFromStream.obj"
+".\Debug\DataSource.obj"
+".\Debug\ExpandPackage.obj"
+".\Debug\Interval.obj"
+".\Debug\Package.obj"
+".\Debug\PackageFileHead.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe -lib @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP5843.tmp"
+<h3>Output Window</h3>
+Compiling...
+BlockSource.cpp
+DataPointFromStream.cpp
+DataSource.cpp
+ExpandPackage.cpp
+Interval.cpp
+Package.cpp
+PackageFileHead.cpp
+StdAfx.cpp
+Creating library...
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP5C5B.bat" with contents
+[
+@echo off
+copy Debug\ExpandPackageStaticLib.lib ..\..\lib\debug\ExpandPackageStaticLib.lib
+]
+Creating command line "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP5C5B.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ExpandPackageStaticLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: FilterText_StaticLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP5EAE.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "FILTERTEXT_STATICLIB" /FR"FilterText_StaticLib___Win32_Release/" /Fp"FilterText_StaticLib___Win32_Release/FilterText_StaticLib.pch" /YX /Fo"FilterText_StaticLib___Win32_Release/" /Fd"FilterText_StaticLib___Win32_Release/" /FD /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\FilterText\FilterText.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\FilterText\Regexp.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP5EAE.tmp" 
+Creating command line "link.exe -lib /nologo /out:"FilterText_StaticLib___Win32_Release\FilterText_StaticLib.lib"  ".\FilterText_StaticLib___Win32_Release\FilterText.obj" ".\FilterText_StaticLib___Win32_Release\Regexp.obj" "
+<h3>Output Window</h3>
+Compiling...
+FilterText.cpp
+Regexp.cpp
+Creating library...
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP61FB.bat" with contents
+[
+@echo off
+md ..\..\lib\release
+copy FilterText_StaticLib___Win32_Release\FilterText_StaticLib.lib ..\..\lib\release\FilterText_StaticLib.lib
+]
+Creating command line "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP61FB.bat"
+
+A subdirectory or file ..\..\lib\release already exists.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+FilterText_StaticLib.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: FilterText_StaticLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP642E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "FILTERTEXT_STATICLIB" /Fp"FilterText_StaticLib___Win32_Debug/FilterText_StaticLib.pch" /YX /Fo"FilterText_StaticLib___Win32_Debug/" /Fd"FilterText_StaticLib___Win32_Debug/" /FD /GZ /c 
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\FilterText\FilterText.cpp"
+"F:\0.02 volamhoiuc\src-jx-win\SwordOnline\Sources\FilterText\Regexp.cpp"
+]
+Creating command line "cl.exe @C:\Users\ANHTHU~1\AppData\Local\Temp\RSP642E.tmp" 
+Creating command line "link.exe -lib /nologo /out:"FilterText_StaticLib___Win32_Debug\FilterText_StaticLib.lib"  ".\FilterText_StaticLib___Win32_Debug\FilterText.obj" ".\FilterText_StaticLib___Win32_Debug\Regexp.obj" "
+<h3>Output Window</h3>
+Compiling...
+FilterText.cpp
+Regexp.cpp
+Creating library...
+Creating temporary file "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP672D.bat" with contents
+[
+@echo off
+md ..\..\lib\debug
+copy FilterText_StaticLib___Win32_Debug\FilterText_StaticLib.lib ..\..\lib\debug\FilterText_StaticLib.lib
+]
+Creating command line "C:\Users\ANHTHU~1\AppData\Local\Temp\RSP672D.bat"
+
+A subdirectory or file ..\..\lib\debug already exists.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+FilterText_StaticLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
